@@ -1,0 +1,12 @@
+{
+  "$schema": "../node_modules/@angular-devkit/schematics/collection-schema.json",
+  "schematics": {
+    "seed": {
+      "aliases": [
+        "page-lazy-module"
+      ],
+      "description": "Generate a page module (module,routing module and main component)",
+      "factory": "./seed/index#seed"
+    }
+  }
+}

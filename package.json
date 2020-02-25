@@ -1,0 +1,26 @@
+{
+  "name": "seed",
+  "version": "0.0.0",
+  "description": "A blank schematics",
+  "scripts": {
+    "build": "tsc -p tsconfig.json",
+    "test": "npm run build && jasmine src/**/*_spec.js"
+  },
+  "keywords": [
+    "schematics"
+  ],
+  "author": "",
+  "license": "MIT",
+  "schematics": "./src/collection.json",
+  "dependencies": {
+    "@angular-devkit/core": "^9.0.3",
+    "@angular-devkit/schematics": "^9.0.3",
+    "typescript": "~3.7.4"
+  },
+  "devDependencies": {
+    "@schematics/angular": "^9.0.3",
+    "@types/jasmine": "~3.5.0",
+    "@types/node": "^12.11.1",
+    "jasmine": "^3.5.0"
+  }
+}
