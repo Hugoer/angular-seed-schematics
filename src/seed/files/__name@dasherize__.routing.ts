@@ -7,8 +7,8 @@ const routes: Routes = [{
     path: '',
     component: <%= classify(name) %>Component,
     data: {
-    pageTitle: '<%=dasherize(name)%>.title'
-}
+        pageTitle: '<%=dasherize(name)%>.title'
+    }
 }];
 
 @NgModule({
