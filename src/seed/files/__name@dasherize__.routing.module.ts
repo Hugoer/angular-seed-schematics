@@ -1,14 +1,14 @@
 import { NgModule } from '@angular/core';
 import { Routes, RouterModule } from '@angular/router';
 
-import { <%= classify(name) %>Component } from './<%=dasherize(name)%>/<%=dasherize(name)%>.component';
+import { <%= classify(name) %> Component } from './<%=dasherize(name)%>/<%=dasherize(name)%>.component';
 
 const routes: Routes = [{
     path: '',
-    component: <%= classify(name) %>Component,
+    component: <%= classify(name) %> Component,
     data: {
-        pageTitle: '<%=dasherize(name)%>.title'
-    }
+    pageTitle: '<%=dasherize(name)%>.title'
+}
 }];
 
 @NgModule({
@@ -19,4 +19,4 @@ const routes: Routes = [{
         RouterModule,
     ]
 })
-export class <%= classify(name) %>RoutingModule { }
+export class <%= classify(name) %> RoutingModule { }
