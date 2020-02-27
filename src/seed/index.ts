@@ -38,7 +38,7 @@ function setupOptions(options: SeedLazyModuleOptions, host: Tree): void {
 
 }
 
-export default function (options: SeedLazyModuleOptions): Rule {
+export function seed(options: SeedLazyModuleOptions): Rule {
 
   return (host: Tree, context: SchematicContext) => {
 

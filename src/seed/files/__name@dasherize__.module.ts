@@ -4,7 +4,7 @@ import { <%= classify(name) %>RoutingModule } from './<%=dasherize(name)%>-routi
 import { <%= classify(name) %>Component } from './<%=dasherize(name)%>/<%=dasherize(name)%>.component';
 import { SharedModule } from '@app/shared/shared.module';
 
-const MATERIAL_<%= name.toUpperCase() %>_MODULES =[
+const MATERIAL_<%= name.toUpperCase() %>_MODULES = [
 ];
 
 @NgModule({
